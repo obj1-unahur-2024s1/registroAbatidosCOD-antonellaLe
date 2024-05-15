@@ -3,8 +3,11 @@
 
 Se nos pide modelar un servicio para el famoso videojuego Call of Duty que permita registrar la cantidad de abatidos por día. 
 
-Cada registro del registro de abatidos deberá contener la cantidad de abatidos y el día correspondiente. Analizar las posibles soluciones para resolver el problema. 
-Para representar el valor de día, en este modelo, usaremos un entero del tipo AAAAMMDD. Por ejemplo para el 31/12/2022 iría 20221231. Ya veremos que Wollok contempla la posibilidad de usar fechas, pero eso será más adelante. 
+	Cada registro del registro de abatidos deberá contener la cantidad de abatidos y
+ el día correspondiente. Analizar las posibles soluciones para resolver el problema. 
+	Para representar el valor de día, en este modelo, usaremos un entero del tipo AAAAMMDD.
+ 	Por ejemplo para el 31/12/2022 iría 20221231.
+  	Ya veremos que Wollok contempla la posibilidad de usar fechas, pero eso será más adelante. 
 Considerar también la posibilidad de eliminar uno o todos los registros.
 
 <br>

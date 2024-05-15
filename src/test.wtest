@@ -1,0 +1,54 @@
+import registroAbatidos.*
+
+ test "ab"{
+	assert.equals(true,registroAbatidosCOD.algunDiaAbatio(49))
+	
+	assert.equals(false,registroAbatidosCOD.algunDiaAbatio(52))
+
+}
+
+test"abatidos1"{
+		
+		assert.equals(62,registroAbatidosCOD.maximoValorDeAbatidos())
+		assert.equals([18,62],registroAbatidosCOD.valoresDeAbatidosPares())
+} 
+
+test"abatidos2"{
+		
+		assert.equals(62,registroAbatidosCOD.maximoValorDeAbatidos())
+		assert.equals([18,62],registroAbatidosCOD.valoresDeAbatidosPares())
+} 
+test"Cant de abatidos es acotada"{
+	
+		assert.equals(true,registroAbatidosCOD.abatidosEsAcotada(10,100))
+		assert.equals(false,registroAbatidosCOD.abatidosEsAcotada(20,100))
+} 
+
+test"Abatidos sumando 5"{
+			//assert.equals([],registroAbatidosCOD.abatidosSuperiores(35))
+		assert.equals([48,23,54,67,38,44],registroAbatidosCOD.abatidosSumando(5))
+} 
+
+test"Total de abatidos"{
+			assert.equals(244,registroAbatidosCOD.totalAbatidos())
+} 
+
+test"Ultimo Valor De Abatidos"{
+			assert.equals(39,registroAbatidosCOD.ultimoValorDeAbatidos())
+} 
+
+test"Cantidad de abatidos Mayor a la 1era"{
+			assert.equals(2,registroAbatidosCOD.cantidadAbatidosMayorALaPrimera())
+} 
+
+test"Abatio a mas de 50 y 30"{
+			assert.equals(true,registroAbatidosCOD.algunDiaAbatioMasDe(50))
+} 
+
+test"Abatio a mas de 30 todos los dias"{
+			assert.equals(false,registroAbatidosCOD.todosLosDiasAbatioMasDe(30))
+} 
+
+test"Es un crack"{
+			assert.equals(false,registroAbatidosCOD.esCrack())
+} 
